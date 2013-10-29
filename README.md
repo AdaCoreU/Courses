@@ -1,4 +1,4 @@
 Courses
 =======
 
-This repository contains all course material published to the AdaCore University website (slides, captivate presentations, labs)
+This repository contains course material published to the AdaCore University website http://university.adacore.com/ (slides, captivate presentations, labs)
