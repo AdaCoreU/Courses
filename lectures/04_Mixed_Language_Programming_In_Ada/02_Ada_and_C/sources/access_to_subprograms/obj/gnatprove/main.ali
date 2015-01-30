@@ -1,0 +1,102 @@
+V "GNAT Lib v7.2"
+M P W=b
+A -gnatc
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_ELABORATION_CODE
+
+U main%b		main.adb		440fdb55 OO SU
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D interfac.ads		20130317214846 cb4a8015
+D i-c.ads		20101110140308 5421119b
+D main.adb		20141006190612 102ecace
+D system.ads		20120806180456 5fc8ae56
+D s-parame.ads		20110802094036 b6e20cc0
+X 1 interfac.ads
+36K9*Interfaces 177e15 3|1r6 5r39 8r38
+X 2 i-c.ads
+18K20*C 230e17 3|1w17 5r50 8r49
+60M9*size_t 3|5r52 8r51
+X 3 main.adb
+3U11*Main 3b11 17l5 17t9
+5P14 Size_T_Ptr(2|60M9) 6r54 8r20
+6P14 C_Function_Ptr 6>50 10r20
+6p50 X{5P14}
+8p9 A_Size_T{5P14} 16r27
+10p9*A_C_Func{6P14} 16r9
+FD 1 interfac.ads
+FS .1 36K9 interfaces
+FS .2 67V13 interfaces__shift_left
+FS .3 71V13 interfaces__shift_right
+FS .4 75V13 interfaces__shift_right_arithmetic
+FS .5 79V13 interfaces__rotate_left
+FS .6 83V13 interfaces__rotate_right
+FS .7 87V13 interfaces__shift_left__2
+FS .8 91V13 interfaces__shift_right__2
+FS .9 95V13 interfaces__shift_right_arithmetic__2
+FS .10 99V13 interfaces__rotate_left__2
+FS .11 103V13 interfaces__rotate_right__2
+FS .12 107V13 interfaces__shift_left__3
+FS .13 111V13 interfaces__shift_right__3
+FS .14 115V13 interfaces__shift_right_arithmetic__3
+FS .15 119V13 interfaces__rotate_left__3
+FS .16 123V13 interfaces__rotate_right__3
+FS .17 127V13 interfaces__shift_left__4
+FS .18 131V13 interfaces__shift_right__4
+FS .19 135V13 interfaces__shift_right_arithmetic__4
+FS .20 139V13 interfaces__rotate_left__4
+FS .21 143V13 interfaces__rotate_right__4
+FD 2 i-c.ads
+FS .1 18K20 interfaces__c
+FS .2 76V13 interfaces__c__to_c
+FS .3 77V13 interfaces__c__to_ada
+FS .4 82V13 interfaces__c__is_nul_terminated
+FS .5 84V13 interfaces__c__to_c__2
+FS .6 88V13 interfaces__c__to_ada__2
+FS .7 92U14 interfaces__c__to_c__3
+FS .8 98U14 interfaces__c__to_ada__3
+FS .9 113V13 interfaces__c__to_c__4
+FS .10 114V13 interfaces__c__to_ada__4
+FS .11 118V13 interfaces__c__is_nul_terminated__2
+FS .12 120V13 interfaces__c__to_c__5
+FS .13 124V13 interfaces__c__to_ada__5
+FS .14 128U14 interfaces__c__to_c__6
+FS .15 134U14 interfaces__c__to_ada__6
+FS .16 152V13 interfaces__c__to_c__7
+FS .17 155V13 interfaces__c__to_ada__7
+FS .18 161V13 interfaces__c__is_nul_terminated__3
+FS .19 164V13 interfaces__c__to_c__8
+FS .20 169V13 interfaces__c__to_ada__8
+FS .21 174U14 interfaces__c__to_c__9
+FS .22 181U14 interfaces__c__to_ada__9
+FS .23 194V13 interfaces__c__to_c__10
+FS .24 197V13 interfaces__c__to_ada__10
+FS .25 203V13 interfaces__c__is_nul_terminated__4
+FS .26 206V13 interfaces__c__to_c__11
+FS .27 211V13 interfaces__c__to_ada__11
+FS .28 216U14 interfaces__c__to_c__12
+FS .29 223U14 interfaces__c__to_ada__12
+FD 3 main.adb
+FS .1 3U11 main
+FD 4 system.ads
+FS .1 37K9 system
+FS .2 74V13 system__Olt
+FS .3 75V13 system__Ole
+FS .4 76V13 system__Ogt
+FS .5 77V13 system__Oge
+FS .6 78V13 system__Oeq
+FD 5 s-parame.ads
+FS .1 51K16 system__parameters
+FS .2 81V13 system__parameters__default_stack_size
+FS .3 84V13 system__parameters__minimum_stack_size
+FS .4 87V13 system__parameters__adjust_storage_size
+FX 3 main.adb .1 main
+F 0*0 __HEAP 16r18
+F 8*9 main__a_size_t 16r27
+F 10*9 main__a_c_func 16r9
+

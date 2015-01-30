@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<global>
+   <file name="C:\AdaCoreU\Mixed_Language_Programming_In_Ada_Code\02_Ada_and_C\access_to_subprograms\src\main.adb">
+      <metric name="all_lines">17</metric>
+      <metric name="code_lines">12</metric>
+      <metric name="comment_lines">0</metric>
+      <metric name="eol_comments">0</metric>
+      <metric name="comment_percentage">0.00</metric>
+      <metric name="blank_lines">5</metric>
+      <unit name="Main" kind="procedure body" line="3" col="1">
+         <metric name="all_lines">15</metric>
+         <metric name="code_lines">11</metric>
+         <metric name="comment_lines">0</metric>
+         <metric name="eol_comments">0</metric>
+         <metric name="comment_percentage">0.00</metric>
+         <metric name="blank_lines">4</metric>
+         <metric name="all_types">2</metric>
+         <metric name="public_subprograms">1</metric>
+         <metric name="all_subprograms">1</metric>
+         <metric name="all_stmts">1</metric>
+         <metric name="all_dcls">6</metric>
+         <metric name="construct_nesting">1</metric>
+         <metric name="lsloc">7</metric>
+         <metric name="statement_complexity">1</metric>
+         <metric name="expression_complexity">0</metric>
+         <metric name="cyclomatic_complexity">1</metric>
+         <metric name="essential_complexity">1</metric>
+         <metric name="max_loop_nesting">0</metric>
+         <metric name="extra_exit_points">0</metric>
+      </unit>
+      <metric name="statement_complexity">1.00</metric>
+      <metric name="expression_complexity">0.00</metric>
+      <metric name="essential_complexity">1.00</metric>
+      <metric name="cyclomatic_complexity">1.00</metric>
+      <metric name="max_loop_nesting">0.00</metric>
+   </file>
+   <metric name="all_lines">17</metric>
+   <metric name="code_lines">12</metric>
+   <metric name="comment_lines">0</metric>
+   <metric name="eol_comments">0</metric>
+   <metric name="comment_percentage">0.00</metric>
+   <metric name="blank_lines">5</metric>
+   <metric name="average_lines_in_bodies">11.00</metric>
+   <metric name="all_stmts">1</metric>
+   <metric name="all_dcls">6</metric>
+   <metric name="lsloc">7</metric>
+   <metric name="public_subprograms">1</metric>
+   <metric name="all_subprograms">1</metric>
+   <metric name="public_types">0</metric>
+   <metric name="all_types">2</metric>
+   <metric name="average_complexity">1.00</metric>
+</global>

@@ -1,0 +1,405 @@
+V "GNAT Lib v2014"
+A -O2
+A -fno-strict-aliasing
+A -gnatA
+A -gnat05
+A -gnatn
+A -gnatws
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+I 22 s 1242
+I 8 s 1243
+I 4 s 1244
+I 11 s 1245
+
+U jni_binding.record_types_jni.a_nested_record_type_jni%b  jni_binding-record_types_jni-a_nested_record_type_jni.adb  2eb03430 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W jni_binding.record_types_jni%s  jni_binding-record_types_jni.adb  jni_binding-record_types_jni.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U jni_binding.record_types_jni.a_nested_record_type_jni%s  jni_binding-record_types_jni-a_nested_record_type_jni.ads  be88c486 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.conversions%s  a-chacon.adb	a-chacon.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ajis%s		ajis.ads		ajis.ali
+W ajis.internal%s	ajis-internal.ads	ajis-internal.ali
+W ajis.internal.java%s	ajis-internal-java.adb	ajis-internal-java.ali  AD
+W ajis.java%s		ajis-java.ads		ajis-java.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W interfaces.java.jni%s	i-javjni.adb		i-javjni.ali
+W jni_binding.record_types_jni%s  jni_binding-record_types_jni.adb  jni_binding-record_types_jni.ali
+W record_types%s	record_types.adb	record_types.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181358 2d3ec45b ada.characters%s
+D a-chacon.ads		20140406181354 5b23f5eb ada.characters.conversions%s
+D a-contai.ads		20140406181356 61e5e089 ada.containers%s
+D a-cdlili.ads		20140406181358 c3008bbb ada.containers.doubly_linked_lists%s
+D a-cdlili.adb		20140406181356 63a06d94 ada.containers.doubly_linked_lists%b
+D a-ciorma.ads		20140406181354 3cb72d96 ada.containers.indefinite_ordered_maps%s
+D a-ciorma.adb		20140406181354 d7ddb4a5 ada.containers.indefinite_ordered_maps%b
+D a-crbltr.ads		20140406181356 b8a2dc05 ada.containers.red_black_trees%s
+D a-crbtgk.ads		20140406181354 18ae3fab ada.containers.red_black_trees.generic_keys%s
+D a-crbtgo.ads		20140406181358 375f6f61 ada.containers.red_black_trees.generic_operations%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181358 69f99942 ada.finalization%s
+D a-interr.ads		20140406181356 391cab36 ada.interrupts%s
+D a-intnam.ads		20140406181356 b1360ffd ada.interrupts.names%s
+D a-iteint.ads		20140406181354 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20140406181354 1a984740 ada.streams%s
+D a-tags.ads		20140406181356 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181358 f15a5ed1 ada.unchecked_deallocation%s
+D ajis.ads		20140520141644 77a68cb4 ajis%s
+D ajis-internal.ads	20140520141644 f820dc84 ajis.internal%s
+D ajis-internal-java.ads  20140520141644 7258b48c ajis.internal.java%s
+D ajis-java.ads		20140520141644 0c852c66 ajis.java%s
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cpoint.ads		20140406181358 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20140406181356 8bc8f877 interfaces.c.pointers%b
+D i-cstrin.ads		20140406181356 341d0ddf interfaces.c.strings%s
+D i-java.ads		20140520141644 e9718391 interfaces.java%s
+D i-javjni.ads		20140520141756 2ae03f60 interfaces.java.jni%s
+D jni_binding.ads	20141221102618 0ce947bc jni_binding%s
+D jni_binding-record_types_jni.ads  20141221102618 f1633cc6 jni_binding.record_types_jni%s
+D jni_binding-record_types_jni-a_nested_record_type_jni.ads  20141221102618 a68a6353 jni_binding.record_types_jni.a_nested_record_type_jni%s
+D jni_binding-record_types_jni-a_nested_record_type_jni.adb  20141221102618 33193267 jni_binding.record_types_jni.a_nested_record_type_jni%b
+D jni_binding-standard_jni.ads  20141221102618 c2c46f89 jni_binding.standard_jni%s
+D record_types.ads	20141205215656 b7b2711d record_types%s
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-atacco.ads		20140406181354 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
+D s-interr.ads		20140406181356 269c22db system.interrupts%s
+D s-multip.ads		20140406181358 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20140406181354 ecf1fbfd system.os_interface%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181358 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181354 a37c21ec system.stack_checking%s
+D s-stausa.ads		20140406181354 017a0a05 system.stack_usage%s
+D s-stalib.ads		20140406181354 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181354 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181354 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-ststop.ads		20140406181356 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20140406181356 601f6b72 system.task_info%s
+D s-taspri.ads		20140406181356 196697f7 system.task_primitives%s
+D s-taskin.ads		20140406181354 3f821f32 system.tasking%s
+D s-taprob.ads		20140406181354 502249e3 system.tasking.protected_objects%s
+D s-tpoben.ads		20140406181356 b641f948 system.tasking.protected_objects.entries%s
+D s-traent.ads		20140406181354 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-win32.ads		20140406181354 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 19e8 34|16r6 17r6 35|11r6 13r6 14r6 15r6 50r96 60r160 93r96 103r160
+. 134r96 144r160 170r96 179r160 205r96 215r160 240r96 249r160
+X 2 a-charac.ads
+16K13*Characters 18e19 34|16r10
+X 3 a-chacon.ads
+36K24*Conversions 86e31 34|16w21
+X 7 a-ciorma.ads
+235R9 Node_Type
+236P9 Node_Access(235R9)
+X 8 a-ciorma.adb
+50V13 Color{9|35E9} 11|45i19[23|423]
+53V13 Left{7|236P9[23|432]} 11|41i19[23|432]
+56V13 Parent{7|236P9[23|432]} 11|39i19[23|432]
+59V13 Right{7|236P9[23|432]} 11|43i19[23|432]
+62U14 Set_Parent 11|40i19[23|423]
+65U14 Set_Left 11|42i19[23|423]
+68U14 Set_Right 11|44i19[23|423]
+71U14 Set_Color 11|46i19[23|432]
+X 12 a-except.ads
+53K13*Exceptions 360e19 35|15w10 50r100 60r164 93r100 103r164 134r100 144r164
+. 170r100 179r164 205r100 215r164 240r100 249r164
+93V13*Exception_Message{string} 35|50s111 93s111 134s111 170s111 205s111
+. 240s111
+103V13*Exception_Information{string} 35|60s175 103s175 144s175 179s175 215s175
+. 249s175
+X 13 a-finali.ads
+40K13*Finalization 68e21 34|17w10
+X 16 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[5|67]>
+X 18 a-tags.ads
+60K13*Tags 602e13 35|14w10
+X 19 a-unccon.ads
+20v14*Unchecked_Conversion 35|13w10
+X 20 a-uncdea.ads
+20u15*Unchecked_Deallocation 35|11w10
+X 21 ajis.ads
+24K9*AJIS 26e9 34|12w6 13r6 14r6 15r6 57r16 57r57 35|27r7 46r16 50r60 58r23
+. 60r67 60r97 89r16 93r60 101r23 103r67 103r97 130r16 134r60 142r23 144r67
+. 144r97 166r16 170r60 177r23 179r67 179r97 201r16 205r60 213r23 215r67 215r97
+. 236r16 240r60 247r23 249r67 249r97
+X 22 ajis-internal.ads
+24K14*Internal 28e18 34|13w11 15r11 57r21 57r62 35|27r12 50r65 58r28 60r72
+. 60r102 93r65 101r28 103r72 103r102 134r65 142r28 144r72 144r102 170r65
+. 177r28 179r72 179r102 205r65 213r28 215r72 215r102 240r65 247r28 249r72
+. 249r102
+X 23 ajis-internal-java.ads
+39K23*Java 440e23 34|15w20 57r30 57r71 35|27r21 50r74 58r37 60r81 60r111
+. 93r74 101r37 103r81 103r111 134r74 142r37 144r81 144r111 170r74 177r37
+. 179r81 179r111 205r74 213r37 215r81 215r111 240r74 247r37 249r81 249r111
+128P9*Java_Method_Access(122R9) 34|57r35
+130V13*Get_Java_Method{128P9} 34|57s76
+155U14*Initialize 35|27s26
+162P9*Java_Class_Access(159R9)
+173V13*Get_Class{31|82M12} 35|60s86 103s86 144s86 179s86 215s86 249s86
+280P12*Object_Pointer(37|3R9) 35|69r58[33|27] 70r58[33|27] 70r115[33|27]
+. 78r61[33|27] 78r118[33|27] 80r65[33|27] 80r122[33|27] 112r58[33|27] 112r115[33|27]
+. 112r170[33|27] 121r65[33|27] 121r122[33|27] 153r58[33|27] 153r115[33|27]
+. 161r61[33|27] 161r118[33|27] 195r61[33|27] 195r118[33|27] 231r62[33|27]
+. 231r119[33|27]
+282P12*Object_Pointer_Cst(37|3R9) 35|39r61[33|27] 39r122[33|27] 40r61[33|27]
+. 40r122[33|27]
+290V16*To_JintArray{31|111M12} 35|83s101[33|27] 124s101[33|27]
+296V16*To_Pointer{280P12[33|27]} 35|39s181[33|27] 40s181[33|27] 78s173[33|27]
+. 161s173[33|27] 195s173[33|27] 231s174[33|27]
+302U17*Free[20|20] 35|155s46[33|27]
+332V13*Create_Java_Exception{31|79M9} 35|58s42 101s42 142s42 177s42 213s42
+. 247s42
+347V13*Throwable_Value{31|91M12} 35|50s79 93s79 134s79 170s79 205s79 240s79
+369p4*Native_Exception_Class{162P9} 35|60r116 103r116 144r116 179r116 215r116
+. 249r116
+421V14 "<"{boolean} 7|44i19
+428V14 "="{boolean} 7|45i19
+430V14 "<"{boolean} 7|44i19
+X 24 ajis-java.ads
+24K14*Java 31e14 34|14w11 35|46r21 89r21 130r21 166r21 201r21 236r21
+26X4*Java_Exception 35|46r26 89r26 130r26 166r26 201r26 236r26
+X 25 interfac.ads
+38K9*Interfaces 179e15 34|11r6 25r46 29r42 29r89 29r126 29r169 29r211 34r49
+. 34r96 34r133 34r175 37r35 37r82 39r56 39r103 39r140 44r59 44r106 44r142
+. 49r49 49r96 49r133 49r175 54r51 54r98 54r135 54r178 35|16r6 17r6 23r46
+. 36r42 36r89 36r126 36r169 36r211 41r22 41r55 48r22 50r23 51r20 55r22 56r22
+. 59r16 59r49 60r26 60r141 62r26 64r20 75r49 75r96 75r133 75r175 79r28 83r25
+. 91r22 93r23 94r20 98r22 99r22 102r16 102r49 103r26 103r141 105r26 107r20
+. 111r35 111r82 117r56 117r103 117r140 120r28 124r25 132r22 134r23 135r20
+. 139r22 140r22 143r16 143r49 144r26 144r141 146r26 148r20 158r59 158r106
+. 158r142 168r22 170r23 174r22 175r22 178r16 178r49 179r26 179r141 181r26
+. 192r49 192r96 192r133 192r175 196r23 196r52 203r22 205r23 210r22 211r22
+. 214r16 214r49 215r26 215r141 217r26 228r51 228r98 228r135 228r178 238r22
+. 240r23 244r22 245r22 248r16 248r49 249r26 249r141 251r26
+X 26 i-c.ads
+18K20*C 230e17 35|16w17 17r17 60r152 103r152 144r152 179r152 215r152 249r152
+72E9*char<character>
+79A9*char_array(72E9)<60M9>
+84V13*To_C{79A9} 35|60s154 103s154 144s154 179s154 215s154 249s154
+X 29 i-cstrin.ads
+36K22*Strings 106e25 35|17w19
+X 30 i-java.ads
+24K20*Java 26e20 34|11r17 25r57 29r53 29r100 29r137 29r180 29r222 34r60 34r107
+. 34r144 34r186 37r46 37r93 39r67 39r114 39r151 44r70 44r117 44r153 49r60
+. 49r107 49r144 49r186 54r62 54r109 54r146 54r189 35|23r57 36r53 36r100 36r137
+. 36r180 36r222 41r33 41r66 48r33 50r34 51r31 55r33 56r33 59r27 59r60 60r37
+. 62r37 64r31 75r60 75r107 75r144 75r186 79r39 83r36 91r33 93r34 94r31 98r33
+. 99r33 102r27 102r60 103r37 105r37 107r31 111r46 111r93 117r67 117r114 117r151
+. 120r39 124r36 132r33 134r34 135r31 139r33 140r33 143r27 143r60 144r37 146r37
+. 148r31 158r70 158r117 158r153 168r33 170r34 174r33 175r33 178r27 178r60
+. 179r37 181r37 192r60 192r107 192r144 192r186 196r34 196r63 203r33 205r34
+. 210r33 211r33 214r27 214r60 215r37 217r37 228r62 228r109 228r146 228r189
+. 238r33 240r34 244r33 245r33 248r27 248r60 249r37 251r37
+X 31 i-javjni.ads
+31K25*JNI 2729e24 34|11w22 25r62 29r58 29r105 29r142 29r185 29r227 34r65
+. 34r112 34r149 34r191 37r51 37r98 39r72 39r119 39r156 44r75 44r122 44r158
+. 49r65 49r112 49r149 49r191 54r67 54r114 54r151 54r194 35|23r62 36r58 36r105
+. 36r142 36r185 36r227 41r38 41r71 48r38 50r39 51r36 55r38 56r38 59r32 59r65
+. 60r42 62r42 64r36 75r65 75r112 75r149 75r191 79r44 83r41 91r38 93r39 94r36
+. 98r38 99r38 102r32 102r65 103r42 105r42 107r36 111r51 111r98 117r72 117r119
+. 117r156 120r44 124r41 132r38 134r39 135r36 139r38 140r38 143r32 143r65
+. 144r42 146r42 148r36 158r75 158r122 158r158 168r38 170r39 174r38 175r38
+. 178r32 178r65 179r42 181r42 192r65 192r112 192r149 192r191 196r39 196r68
+. 203r38 205r39 210r38 211r38 214r32 214r65 215r42 217r42 228r67 228r114
+. 228r151 228r194 238r38 240r39 244r38 245r38 248r32 248r65 249r42 251r42
+39B9*J_Boolean<boolean> 34|29r231 35|36r231 41r42 41r75 51r40 64r40
+57I9*J_Int<integer> 34|49r195 54r198 35|48r42 55r42 91r42 98r42 132r42 139r42
+. 168r42 174r42 192r195 196r43 196r72 203r42 210r42 228r198 238r42 244r42
+79M9*J_Object<38|64M9> 34|29r109 34r116 37r102 39r123 44r126 49r116 54r118
+. 35|36r109 56r42 75r116 79r48 99r42 111r102 117r123 120r48 140r42 158r126
+. 175r42 192r116 211r42 228r118 245r42
+80m4*J_Null_Object{79M9} 35|59r69 102r69 143r69 178r69 214r69 248r69
+82M12*J_Class{79M9}
+88M12*J_Array{79M9}
+91M12*J_Throwable{79M9}
+111M12*J_Int_J_Array{88M12} 34|29r146 29r189 34r153 34r195 39r160 44r162
+. 49r153 54r155 35|36r146 36r189 75r153 75r195 83r45 117r160 124r45 158r162
+. 192r153 228r155
+112m4*J_Null_Int_J_Array{111M12} 35|94r40 107r40 135r40 148r40
+266P9*JNI_Env
+267P9*JNI_Env_Access(266P9) 34|25r66 29r62 34r69 37r55 39r76 44r79 49r69
+. 54r71 35|23r66 36r62 75r69 111r55 117r76 158r79 192r69 228r71
+374V13*Throw{57I9} 35|50s43 62s46 93s43 105s46 134s43 146s46 170s43 181s46
+. 205s43 217s46 240s43 251s46
+376V13*Throw_New{57I9} 35|60s46 103s46 144s46 179s46 215s46 249s46
+X 32 jni_binding.ads
+18K9*JNI_Binding 24e16 34|21r9 59r5 35|19r14 39r22 39r83 39r142 40r22 40r83
+. 40r142 69r19 70r19 70r76 78r22 78r79 78r134 80r26 80r83 83r62 112r19 112r76
+. 112r131 121r26 121r83 124r62 153r19 153r76 155r7 161r22 161r79 161r134
+. 195r22 195r79 195r134 231r23 231r80 231r135 258r5
+X 33 jni_binding-record_types_jni.ads
+21K21*Record_Types_JNI 32|18k9 33|31e33 34|21r21 59r17 35|19r26 39r34 39r95
+. 39r154 40r34 40r95 40r154 69r31 70r31 70r88 78r34 78r91 78r146 80r38 80r95
+. 83r74 112r31 112r88 112r143 121r38 121r95 124r74 153r31 153r88 155r19 161r34
+. 161r91 161r146 195r34 195r91 195r146 231r35 231r92 231r147 258r17
+27K12*Id_JNI_40[23|278] 35|39r51 39r112 39r171 40r51 40r112 40r171 69r48
+. 70r48 70r105 78r51 78r108 78r163 80r55 80r112 83r91 112r48 112r105 112r160
+. 121r55 121r112 124r91 153r48 153r105 155r36 161r51 161r108 161r163 195r51
+. 195r108 195r163 231r52 231r109 231r164
+X 34 jni_binding-record_types_jni-a_nested_record_type_jni.ads
+21K38*A_Nested_Record_Type_JNI 33|21k21 34|59l34 59e58 35|19b43 258l34 258t58
+23U14*JNI_For_Body_Elaboration 35|21b14 21t57
+25U14*Initialize_Unit_JNI 25>35 35|23b14 28l8 28t27
+25p35 Id_JNI_1{31|267P9} 35|23b35 27r49
+27V13*Id_JNI_42{boolean} 27^24 27^82 35|30b13 34l8 34t17 41s86
+27p24 Left(37|3R9) 35|30b24 31r57
+27p82 Right(37|3R9) 35|30b82 31r67
+29V13*equals_Id_JNI_41{31|39E9} 29>31 29>78 29>119 29>161 30i<c,Java_adarecord_Record_1Types_A_1Nested_1Record_1Type_equals_1Id_1JNI_141___3I_3I>22
+. 35|36b13 66l8 66t24
+29p31 Id_JNI_1{31|267P9} 35|36b31 39r193 40r193 50r50 58r65 60r57 62r53
+29m78 Id_JNI_2{31|79M9} 35|36b78
+29m119 Left{31|111M12} 35|36b119 39r203
+29m161 Right{31|111M12} 35|36b161 40r203
+32V13*Id_JNI_59(37|3R9) 32^24 35|68b13 73l8 73t17 80s138
+32p24 This(37|3R9) 35|68b24 69r115
+34V13*internalClone_Id_JNI_58{31|111M12} 34>38 34>85 34>126 35i<c,Java_adarecord_Record_1Types_A_1Nested_1Record_1Type_internalClone_1Id_1JNI_158___3I>22
+. 35|75b13 109l8 109t31
+34p38 Id_JNI_1{31|267P9} 35|75b38 78r185 83r115 93r50 101r65 103r57 105r53
+34m85 Id_JNI_2{31|79M9} 35|75b85
+34m126 This{31|111M12} 35|75b126 78r195
+37V13*Id_JNI_76(37|3R9) 37>24 37>71 35|111b13 115l8 115t17 121s138
+37p24 Id_JNI_1{31|267P9} 35|111b24
+37m71 Id_JNI_2{31|79M9} 35|111b71
+39V13*A_Nested_Record_Type_Id_JNI_75{31|111M12} 39>45 39>92 40i<c,Java_adarecord_Record_1Types_A_1Nested_1Record_1Type_A_1Nested_1Record_1Type_1Id_1JNI_175__>22
+. 35|117b13 150l8 150t38
+39p45 Id_JNI_1{31|267P9} 35|117b45 121r148 124r115 134r50 142r65 144r57 146r53
+39m92 Id_JNI_2{31|79M9} 35|117b92 121r158
+42U14*Id_JNI_87 42^25 35|152b14 156l8 156t17 163s10
+42p25 Obj(37|3R9) 35|152b25 153r131
+44U14*deallocateNativeObject_Id_JNI_86 44>48 44>95 44>136 45i<c,Java_adarecord_Record_1Types_A_1Nested_1Record_1Type_deallocateNativeObject_1Id_1JNI_186___3I>22
+. 35|158b14 184l8 184t40
+44p48 Id_JNI_1{31|267P9} 35|158b48 161r185 170r50 177r65 179r57 181r53
+44m95 Id_JNI_2{31|79M9} 35|158b95
+44m136 Obj{31|111M12} 35|158b136 161r195
+47V13*Id_JNI_94{integer} 47^24 35|186b13 190l8 190t17 196s79
+47p24 This(37|3R9) 35|186b24 187r40
+49V13*Integer_Field_Id_JNI_93{31|57I9} 49>38 49>85 49>126 50i<c,Java_adarecord_Record_1Types_A_1Nested_1Record_1Type_Integer_1Field_1Id_1JNI_193___3I>22
+. 35|192b13 221l8 221t31
+49p38 Id_JNI_1{31|267P9} 35|192b38 195r185 205r50 213r65 215r57 217r53
+49m85 Id_JNI_2{31|79M9} 35|192b85
+49m126 This{31|111M12} 35|192b126 195r195
+52U14*Id_JNI_108 52^26 52>75 35|223b14 226l8 226t18 233s10
+52p26 This(37|3R9) 35|223b26 225r7
+52i75 Value{integer} 35|223b75 225r29
+54U14*Integer_Field_Id_JNI_107 54>40 54>87 54>128 54>170 55i<c,Java_adarecord_Record_1Types_A_1Nested_1Record_1Type_Integer_1Field_1Id_1JNI_1107___3II>22
+. 35|228b14 254l8 254t32
+54p40 Id_JNI_1{31|267P9} 35|228b40 231r186 240r50 247r65 249r57 251r53
+54m87 Id_JNI_2{31|79M9} 35|228b87
+54m128 This{31|111M12} 35|228b128 231r196
+54i170 Value{31|57I9} 35|228b170 233r52
+57p4*Id_JNI_39{23|128P9} 35|27r38
+X 35 jni_binding-record_types_jni-a_nested_record_type_jni.adb
+31b7 Id_JNI_52{boolean} 33r14
+39p10 Id_JNI_44{23|282P12[33|27]} 41r97
+40p10 Id_JNI_48{23|282P12[33|27]} 41r108
+41b10 Id_JNI_53{31|39E9} 43r17
+46r12 J{12|62R9} 50r130
+48i13 Result{31|57I9} 50m13
+53r12 E{12|62R9} 58r75 60r198
+55i13 Result{31|57I9} 60m16 62m16
+56m13 Except{31|79M9} 58m13 59r41 62r63
+69p7 Id_JNI_64{23|280P12[33|27]} 70r131
+70p7 Id_JNI_69{23|280P12[33|27]} 72r14
+78p10 Id_JNI_61{23|280P12[33|27]} 80r149
+79m10 Id_JNI_66_Proxy{31|79M9}
+80p10 Id_JNI_67_Ptr{23|280P12[33|27]} 83r125
+83m13 Id_JNI_70{31|111M12} 85r20
+89r12 J{12|62R9} 93r130
+91i13 Result{31|57I9} 93m13
+96r12 E{12|62R9} 101r75 103r198
+98i13 Result{31|57I9} 103m16 105m16
+99m13 Except{31|79M9} 101m13 102r41 105r63
+112p7 Id_JNI_81{23|280P12[33|27]} 114r14
+120m10 Id_JNI_78_Proxy{31|79M9}
+121p10 Id_JNI_79_Ptr{23|280P12[33|27]} 124r125
+124m13 Id_JNI_82{31|111M12} 126r20
+130r12 J{12|62R9} 134r130
+132i13 Result{31|57I9} 134m13
+137r12 E{12|62R9} 142r75 144r198
+139i13 Result{31|57I9} 144m16 146m16
+140m13 Except{31|79M9} 142m13 143r41 146r63
+153p7 Id_JNI_92{23|280P12[33|27]} 155m52 155r52
+161p10 Id_JNI_89{23|280P12[33|27]} 163r21
+166r12 J{12|62R9} 170r130
+168i13 Result{31|57I9} 170m13
+172r12 E{12|62R9} 177r75 179r198
+174i13 Result{31|57I9} 179m16 181m16
+175m13 Except{31|79M9} 177m13 178r41 181r63
+187i7 Id_JNI_101{integer} 189r14
+195p10 Id_JNI_96{23|280P12[33|27]} 196r90
+196i10 Id_JNI_102{31|57I9} 198r17
+201r12 J{12|62R9} 205r130
+203i13 Result{31|57I9} 205m13
+208r12 E{12|62R9} 213r75 215r198
+210i13 Result{31|57I9} 215m16 217m16
+211m13 Except{31|79M9} 213m13 214r41 217r63
+231p10 Id_JNI_110{23|280P12[33|27]} 233r22
+236r12 J{12|62R9} 240r130
+238i13 Result{31|57I9} 240m13
+242r12 E{12|62R9} 247r75 249r198
+244i13 Result{31|57I9} 249m16 251m16
+245m13 Except{31|79M9} 247m13 248r41 251r63
+X 37 record_types.ads
+1K9*Record_Types 34|18w6 18r24 19w6 27r47 27r106 32r38 32r87 37r126 42r38
+. 47r38 52r40 35|30r47 30r106 31r39 68r38 68r87 69r80 111r126 112r190 152r38
+. 186r38 223r40 37|19e17
+3R9*A_Nested_Record_Type 34|27r60 27r119 32r51 32r100 37r139 42r51 47r51
+. 52r53 35|30r60 30r119 68r51 68r100 69r93 111r139 112r203 152r51 186r51
+. 223r53 37|5e14
+4i7*Integer_Field{integer} 35|187r45 225m12
+X 38 system.ads
+37K9*System 35|12r6 38|196e11
+64M9*Address
+78V14*"="{boolean} 35|59r35 59r37 102r35 102r37 143r35 143r37 178r35 178r37
+. 214r35 214r37 248r35 248r37
+X 39 s-atacco.ads
+39k16*Address_To_Access_Conversions 35|12w13 39|63e41
+X 51 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

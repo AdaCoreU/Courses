@@ -1,0 +1,42 @@
+V "GNAT Lib v2014"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		440fdb55 NE OO SU
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D main.adb		20141006190612 102ecace main%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-stalib.ads		20140406181354 fa0a3617 system.standard_library%s
+X 3 interfac.ads
+38K9*Interfaces 179e15 5|1r6 5r39 8r38
+X 4 i-c.ads
+18K20*C 230e17 5|1w17 5r50 8r49
+60M9*size_t 5|5r52 8r51
+X 5 main.adb
+3U11*Main 3b11 17l5 17t9
+5P14 Size_T_Ptr(4|60M9) 6r54 8r20
+6P14 C_Function_Ptr 6>50 10r20
+6p50 X{5P14} 16r22
+8p9 A_Size_T{5P14} 16r27
+10p9*A_C_Func{6P14} 16r9
+

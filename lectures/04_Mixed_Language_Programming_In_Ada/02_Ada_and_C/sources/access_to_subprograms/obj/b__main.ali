@@ -1,0 +1,129 @@
+V "GNAT Lib v2014"
+A -gnatA
+A -gnatA
+A -gnatWb
+A -gnatiw
+A -gnatws
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U ada_main%b		b__main.adb		6f8b3fe5 NE OO PK IL
+W system%s		system.ads		system.ali
+
+U ada_main%s		b__main.ads		f3236ac8 EE NE OO PK IL
+W system%s		system.ads		system.ali
+
+D b__main.ads		20141028211106 acebc49e ada_main%s
+D b__main.adb		20141028211106 c360fb7b ada_main%b
+D system.ads		20140406181358 5fc8ae56 system%s
+X 1 b__main.ads
+3K9*ada_main 177l5 177e13 2|5b14 155l5 155t13
+6i4*gnat_argc{integer} 10m22 10r22 2|133m7
+7m4*gnat_argv{3|64M9} 11m22 11r22 2|134m7
+8m4*gnat_envp{3|64M9} 12m22 12r22 2|135m7
+14i4*gnat_exit_status{integer} 15m22 15r22 2|142r15
+17a4*GNAT_Version{string} 19r22
+21a4*Ada_Main_Program_Name{string} 22r22 2|129r52
+24U14*adainit 25i<c,adainit>22 2|32b14 111l8 111t15 138s7
+27U14*adafinal 28i<c,adafinal>22 2|19b14 28l8 28t16 140s7
+30V13*main{integer} 31>7 32>7 33>7 35i<c,main>22 2|116b13 143t7
+31i7 argc{integer} 2|117b7 133r20
+32m7 argv{3|64M9} 2|118b7 134r20
+33m7 envp{3|64M9} 2|119b7 135r20
+37M9*Version_32 38r22 40r22 42r22 44r22 46r22 48r22 50r22 52r22 54r22 56r22
+. 58r22 60r22 62r22 64r22 66r22 68r22 70r22 72r22 74r22 76r22 78r22 80r22
+. 82r22 84r22 86r22 88r22 90r22 92r22 94r22 96r22 98r22 100r22 102r22 104r22
+. 106r22 108r22 110r22 112r22 114r22 116r22 118r22 120r22 122r22 124r22 126r22
+38m4*u00001{37M9} 39r22
+40m4*u00002{37M9} 41r22
+42m4*u00003{37M9} 43r22
+44m4*u00004{37M9} 45r22
+46m4*u00005{37M9} 47r22
+48m4*u00006{37M9} 49r22
+50m4*u00007{37M9} 51r22
+52m4*u00008{37M9} 53r22
+54m4*u00009{37M9} 55r22
+56m4*u00010{37M9} 57r22
+58m4*u00011{37M9} 59r22
+60m4*u00012{37M9} 61r22
+62m4*u00013{37M9} 63r22
+64m4*u00014{37M9} 65r22
+66m4*u00015{37M9} 67r22
+68m4*u00016{37M9} 69r22
+70m4*u00017{37M9} 71r22
+72m4*u00018{37M9} 73r22
+74m4*u00019{37M9} 75r22
+76m4*u00020{37M9} 77r22
+78m4*u00021{37M9} 79r22
+80m4*u00022{37M9} 81r22
+82m4*u00023{37M9} 83r22
+84m4*u00024{37M9} 85r22
+86m4*u00025{37M9} 87r22
+88m4*u00026{37M9} 89r22
+90m4*u00027{37M9} 91r22
+92m4*u00028{37M9} 93r22
+94m4*u00029{37M9} 95r22
+96m4*u00030{37M9} 97r22
+98m4*u00031{37M9} 99r22
+100m4*u00032{37M9} 101r22
+102m4*u00033{37M9} 103r22
+104m4*u00034{37M9} 105r22
+106m4*u00035{37M9} 107r22
+108m4*u00036{37M9} 109r22
+110m4*u00037{37M9} 111r22
+112m4*u00038{37M9} 113r22
+114m4*u00039{37M9} 115r22
+116m4*u00040{37M9} 117r22
+118m4*u00041{37M9} 119r22
+120m4*u00042{37M9} 121r22
+122m4*u00043{37M9} 123r22
+124m4*u00044{37M9} 125r22
+126m4*u00045{37M9} 127r22
+X 2 b__main.adb
+8i4 E14{short_integer} 8m45 8r45 108m7 108r14
+9i4 E24{short_integer} 9m45 9r45 102m7 102r14
+10i4 E06{short_integer} 10m45 10r45 106m7 106r14
+11i4 E26{short_integer} 11m45 11r45 105m7 105r14
+12i4 E18{short_integer} 12m45 12r45 110m7 110r14
+14a4 Local_Priority_Specific_Dispatching{string} 84r9
+15a4 Local_Interrupt_States{string} 87r27
+17b4 Is_Elaborated{boolean} 23r14 26m7 73r10 76m7
+20U17*s_stalib_adafinal 21b<c,system__standard_library__adafinal>25 27s7
+30P9 No_Param_Proc 70r34
+33i7*Main_Priority{integer} 34m25 34r25 77m7
+35i7*Time_Slice_Value{integer} 36m25 36r25 78m7
+37e7*WC_Encoding{character} 38m25 38r25 79m7
+39e7*Locking_Policy{character} 40m25 40r25 80m7
+41e7*Queuing_Policy{character} 42m25 42r25 81m7
+43e7*Task_Dispatching_Policy{character} 44m25 44r25 82m7
+45m7*Priority_Specific_Dispatching{3|64M9} 46m25 46r25 83m7
+47i7*Num_Specific_Dispatching{integer} 48m25 48r25 85m7
+49i7*Main_CPU{integer} 50m25 50r25 86m7
+51m7*Interrupt_States{3|64M9} 52m25 52r25 87m7
+53i7*Num_Interrupt_States{integer} 54m25 54r25 88m7
+55i7*Unreserve_All_Interrupts{integer} 56m25 56r25 89m7
+57i7*Detect_Blocking{integer} 58m25 58r25 90m7
+59i7*Default_Stack_Size{integer} 60m25 60r25 91m7
+61i7*Leap_Seconds_Support{integer} 62m25 62r25 92m7
+64U17*Install_Handler 65b<c,__gnat_install_handler>25 95s10
+67i7*Handler_Installed{integer} 68m25 68r25 94r10
+70p7*Finalize_Library_Objects{30P9} 71m25 71r25 98m7
+113U14 Ada_Main_Program 114b<ada,_ada_main>24 139s7
+122U17*Initialize 122>29 123b<c,__gnat_initialize>25 137s7
+122m29 Addr{3|64M9}
+125U17*Finalize 126b<c,__gnat_finalize>25 141s7
+127a7 SEH(integer) 137m19 137r19
+129m7 Ensure_Reference{3|64M9} 130r24
+X 3 system.ads
+37K9*System 1|2w6 7r16 8r16 32r14 33r14 2|45r39 51r26 118r14 119r14 122r36
+. 129r34 3|196e11
+64M9*Address 1|7r23 8r23 32r21 33r21 2|45r46 51r33 118r21 119r21 122r43 129r41
+

@@ -1,0 +1,212 @@
+V "GNAT Lib v2014"
+A -O2
+A -fno-strict-aliasing
+A -gnatA
+A -gnat05
+A -gnatn
+A -gnatws
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_FINALIZATION
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+I 22 s 1242
+I 8 s 1243
+I 4 s 1244
+I 11 s 1245
+
+U jni_binding.ada_jni.exceptions_jni%b  jni_binding-ada_jni-exceptions_jni.adb  b7fb5292 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W jni_binding.ada_jni%s	jni_binding-ada_jni.adb	jni_binding-ada_jni.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+
+U jni_binding.ada_jni.exceptions_jni%s  jni_binding-ada_jni-exceptions_jni.ads  001e3514 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.conversions%s  a-chacon.adb	a-chacon.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ajis%s		ajis.ads		ajis.ali
+W ajis.internal%s	ajis-internal.ads	ajis-internal.ali
+W ajis.internal.java%s	ajis-internal-java.adb	ajis-internal-java.ali  AD
+W ajis.java%s		ajis-java.ads		ajis-java.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W interfaces.java.jni%s	i-javjni.adb		i-javjni.ali
+W jni_binding.ada_jni%s	jni_binding-ada_jni.adb	jni_binding-ada_jni.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181358 2d3ec45b ada.characters%s
+D a-chacon.ads		20140406181354 5b23f5eb ada.characters.conversions%s
+D a-contai.ads		20140406181356 61e5e089 ada.containers%s
+D a-cdlili.ads		20140406181358 c3008bbb ada.containers.doubly_linked_lists%s
+D a-cdlili.adb		20140406181356 63a06d94 ada.containers.doubly_linked_lists%b
+D a-ciorma.ads		20140406181354 3cb72d96 ada.containers.indefinite_ordered_maps%s
+D a-ciorma.adb		20140406181354 d7ddb4a5 ada.containers.indefinite_ordered_maps%b
+D a-crbltr.ads		20140406181356 b8a2dc05 ada.containers.red_black_trees%s
+D a-crbtgk.ads		20140406181354 18ae3fab ada.containers.red_black_trees.generic_keys%s
+D a-crbtgo.ads		20140406181358 375f6f61 ada.containers.red_black_trees.generic_operations%s
+D a-envvar.ads		20140406181356 00080416 ada.environment_variables%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181358 69f99942 ada.finalization%s
+D a-interr.ads		20140406181356 391cab36 ada.interrupts%s
+D a-intnam.ads		20140406181356 b1360ffd ada.interrupts.names%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20140406181354 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20140406181354 1a984740 ada.streams%s
+D a-tags.ads		20140406181356 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181358 386df5d4 ada.text_io%s
+D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181358 f15a5ed1 ada.unchecked_deallocation%s
+D ajis.ads		20140520141644 77a68cb4 ajis%s
+D ajis-internal.ads	20140520141644 f820dc84 ajis.internal%s
+D ajis-internal-java.ads  20140520141644 7258b48c ajis.internal.java%s
+D ajis-internal-java.adb  20140520141644 ee1a3ffd ajis.internal.java%b
+D ajis-java.ads		20140520141644 0c852c66 ajis.java%s
+D interfac.ads		20140406181358 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cpoint.ads		20140406181358 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20140406181356 8bc8f877 interfaces.c.pointers%b
+D i-cstrin.ads		20140406181356 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140406181356 febc86ed interfaces.c_streams%s
+D i-java.ads		20140520141644 e9718391 interfaces.java%s
+D i-javjni.ads		20140520141756 2ae03f60 interfaces.java.jni%s
+D jni_binding.ads	20141218074010 0ce947bc jni_binding%s
+D jni_binding-ada_jni.ads  20141218074010 69333149 jni_binding.ada_jni%s
+D jni_binding-ada_jni-exceptions_jni.ads  20141218074010 fc656eda jni_binding.ada_jni.exceptions_jni%s
+D jni_binding-ada_jni-exceptions_jni.adb  20141218074010 f0bd594c jni_binding.ada_jni.exceptions_jni%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-atacco.ads		20140406181354 4c36d12f system.address_to_access_conversions%s
+D s-carun8.ads		20140406181356 a903718d system.compare_array_unsigned_8%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181354 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181358 4ff27390 system.finalization_root%s
+D s-imgint.ads		20140406181358 02dbe0c2 system.img_int%s
+D s-imguns.ads		20140406181354 9ff43cf7 system.img_uns%s
+D s-interr.ads		20140406181356 269c22db system.interrupts%s
+D s-multip.ads		20140406181358 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20140406181354 ecf1fbfd system.os_interface%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181356 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181358 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181354 a37c21ec system.stack_checking%s
+D s-stausa.ads		20140406181354 017a0a05 system.stack_usage%s
+D s-stalib.ads		20140406181354 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181354 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181356 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181354 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-ststop.ads		20140406181356 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20140406181356 601f6b72 system.task_info%s
+D s-taspri.ads		20140406181356 196697f7 system.task_primitives%s
+D s-taskin.ads		20140406181354 3f821f32 system.tasking%s
+D s-taprob.ads		20140406181354 502249e3 system.tasking.protected_objects%s
+D s-tpoben.ads		20140406181356 b641f948 system.tasking.protected_objects.entries%s
+D s-traent.ads		20140406181354 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-valuns.ads		20140406181358 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D s-win32.ads		20140406181354 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 19e8 39|16r6 17r6 18w6 18r15 19r6 19r26 27r75 40|11r6 13r6 14r6
+. 15r6
+X 2 a-charac.ads
+16K13*Characters 18e19 39|16r10
+X 3 a-chacon.ads
+36K24*Conversions 86e31 39|16w21
+X 7 a-ciorma.ads
+235R9 Node_Type
+236P9 Node_Access(235R9[26|432])
+X 8 a-ciorma.adb
+50V13 Color{9|35E9} 11|45i19
+53V13 Left{7|236P9} 11|41i19
+56V13 Parent{7|236P9[26|423]} 11|39i19[26|423]
+59V13 Right{7|236P9} 11|43i19
+62U14 Set_Parent 11|40i19[26|423]
+65U14 Set_Left 11|42i19[26|432]
+68U14 Set_Right 11|44i19[26|423]
+71U14 Set_Color 11|46i19
+X 13 a-except.ads
+53K13*Exceptions 360e19 39|19w10 19r30 27r79 40|15w10
+62R9*Exception_Occurrence 328e14 39|27r90
+X 14 a-finali.ads
+40K13*Finalization 68e21 39|17w10
+X 18 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[7|69]>
+X 20 a-tags.ads
+60K13*Tags 602e13 40|14w10
+X 22 a-unccon.ads
+20v14*Unchecked_Conversion 40|13w10
+X 23 a-uncdea.ads
+20u15*Unchecked_Deallocation 40|11w10
+X 24 ajis.ads
+24K9*AJIS 26e9 39|12w6 13r6 14r6 15r6 27r28
+X 25 ajis-internal.ads
+24K14*Internal 28e18 39|13w11 15r11 27r33
+X 26 ajis-internal-java.ads
+39K23*Java 440e23 39|15w20 27r42
+278k12*Access_To_Jint_Conversions 305e34 39|27r47
+421V14 "<"{boolean} 7|44i19
+428V14 "="{boolean} 7|45i19
+430V14 "<"{boolean} 7|44i19
+X 27 ajis-internal-java.adb
+1516V13 Get_Simple_Null_Access{36|111M12} 1520i<c,Java_com_adacore_ajis_internal_ada_AdaAccess_getSimpleNullAccess>7
+1535V13 Get_Fat_Null_Access{36|111M12} 1539i<c,Java_com_adacore_ajis_internal_ada_AdaAccess_getFatNullAccess>7
+X 28 ajis-java.ads
+24K14*Java 31e14 39|14w11
+X 29 interfac.ads
+38K9*Interfaces 179e15 39|11r6 25r46 40|16r6 17r6 23r46
+X 30 i-c.ads
+18K20*C 230e17 40|16w17 17r17
+X 33 i-cstrin.ads
+36K22*Strings 106e25 40|17w19
+X 35 i-java.ads
+24K20*Java 26e20 39|11r17 25r57 40|23r57
+X 36 i-javjni.ads
+31K25*JNI 2729e24 39|11w22 25r62 40|23r62
+79M9*J_Object<41|64M9>
+88M12*J_Array{79M9}
+111M12*J_Int_J_Array{88M12}
+266P9*JNI_Env
+267P9*JNI_Env_Access(266P9) 39|25r66 40|23r66
+X 37 jni_binding.ads
+18K9*JNI_Binding 24e16 39|21r9 29r5 40|19r14 31r5
+X 38 jni_binding-ada_jni.ads
+19K21*Ada_JNI 37|18k9 38|25e24 39|21r21 29r17 40|19r26 31r17
+X 39 jni_binding-ada_jni-exceptions_jni.ads
+21K29*Exceptions_JNI 38|19k21 39|29l25 29e39 40|19b34 31l25 31t39
+23U14*JNI_For_Body_Elaboration 40|21b14 21t57
+25U14*Initialize_Unit_JNI 25>35 40|23b14 27l8 27t27
+25p35 Id_JNI_1{36|267P9} 40|23b35
+27K12*Id_JNI_5[26|278]
+X 41 system.ads
+37K9*System 40|12r6 41|196e11
+64M9*Address
+X 42 s-atacco.ads
+39k16*Address_To_Access_Conversions 40|12w13 42|63e41
+X 59 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

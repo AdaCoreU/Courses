@@ -1,0 +1,41 @@
+[LIBRARY PATH]
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\lib\adarecord.dll
+[OBJECT FILES]
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding.o
+20141221102620
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-standard_jni.o
+20141221102620
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.o
+20141221102620
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.o
+20141221102620
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.o
+20141221102622
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.o
+20141221102622
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-record_types_jni.o
+20141221102622
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-record_types_jni-record_types_package_jni.o
+20141221102622
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-record_types_jni-a_record_type_jni.o
+20141221102622
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-record_types_jni-a_nested_record_type_jni.o
+20141221102622
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-ada_jni.o
+20141221102624
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.o
+20141221102624
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.o
+20141221102624
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-ada2java_jni.o
+20141221102624
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.o
+20141221102624
+C:\AdaCoreU\04_Ada_And_Java\Mapping_Ada_Records_to_Java\src\ada2java\ada\obj\record_types.o
+20141221102624
+[GENERATED SOURCE FILES]
+b__adarecord.ads
+b__adarecord.adb
+b__adarecord.ali
+[GENERATED OBJECT FILES]
+b__adarecord.o

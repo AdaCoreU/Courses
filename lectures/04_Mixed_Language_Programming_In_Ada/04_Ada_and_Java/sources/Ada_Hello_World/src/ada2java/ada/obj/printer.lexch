@@ -1,0 +1,37 @@
+[LIBRARY PATH]
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\lib\printer.dll
+[OBJECT FILES]
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding.o
+20141218074012
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni.o
+20141218074012
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.o
+20141218074012
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.o
+20141218074012
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.o
+20141218074014
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.o
+20141218074014
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-printer_jni.o
+20141218074014
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-printer_jni-printer_package_jni.o
+20141218074014
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-ada_jni.o
+20141218074014
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.o
+20141218074014
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.o
+20141218074014
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-ada2java_jni.o
+20141218074016
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.o
+20141218074016
+C:\AdaCoreU\04_Ada_And_Java\Ada_Hello_World\src\ada2java\ada\obj\printer.o
+20141218074016
+[GENERATED SOURCE FILES]
+b__printer.ads
+b__printer.adb
+b__printer.ali
+[GENERATED OBJECT FILES]
+b__printer.o

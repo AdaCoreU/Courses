@@ -1,0 +1,26 @@
+with "jni";
+with "ajis";
+
+project quiz is
+
+   for Object_Dir use "obj";
+
+   for Source_Dirs use ("C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src", "C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\\ada2java\ada");
+
+   for Library_Name use "quiz";
+   for Library_Kind use "dynamic";
+   for Library_Dir use "lib";
+   for Library_Auto_Init use "false";
+   for Library_Interface use ("JNI_Binding");
+
+   package Compiler is
+      for Default_Switches use AJIS.Compiler'Default_Switches;
+   end Compiler;
+
+   case JNI.OS is
+      when "Windows_NT" =>
+         for Shared_Library_Prefix use "";
+      when others =>
+         null;
+   end case;
+end quiz;

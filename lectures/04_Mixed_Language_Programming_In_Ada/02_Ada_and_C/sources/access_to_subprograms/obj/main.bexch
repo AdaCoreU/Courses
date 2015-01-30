@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\AdaCoreU\Mixed_Language_Programming_In_Ada_Code\02_Ada_and_C\access_to_subprograms\proj.gpr
+20141006190636
+[BOUND OBJECT FILES]
+C:\AdaCoreU\Mixed_Language_Programming_In_Ada_Code\02_Ada_and_C\access_to_subprograms\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\AdaCoreU\Mixed_Language_Programming_In_Ada_Code\02_Ada_and_C\access_to_subprograms\obj\
+-LC:\AdaCoreU\Mixed_Language_Programming_In_Ada_Code\02_Ada_and_C\access_to_subprograms\obj\
+-LC:/gnatgpl/win32/2014/lib/gcc/i686-pc-mingw32/4.7.4/adalib/
+-static
+-static-libgcc
+C:/gnatgpl/win32/2014/lib/gcc/i686-pc-mingw32/4.7.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

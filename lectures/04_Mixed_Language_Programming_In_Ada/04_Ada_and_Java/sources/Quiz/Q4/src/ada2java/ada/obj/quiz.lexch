@@ -1,0 +1,39 @@
+[LIBRARY PATH]
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\lib\quiz.dll
+[OBJECT FILES]
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding.o
+20141228125608
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-standard_jni.o
+20141228125610
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.o
+20141228125610
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.o
+20141228125610
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.o
+20141228125610
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.o
+20141228125610
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-q4_jni.o
+20141228125610
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-q4_jni-target_jni.o
+20141228125610
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-q4_jni-q4_package_jni.o
+20141228125612
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-ada_jni.o
+20141228125612
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.o
+20141228125612
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.o
+20141228125612
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-ada2java_jni.o
+20141228125612
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.o
+20141228125612
+C:\AdaCoreU\04_Ada_And_Java\Quiz\Q4\src\ada2java\ada\obj\q4.o
+20141228125612
+[GENERATED SOURCE FILES]
+b__quiz.ads
+b__quiz.adb
+b__quiz.ali
+[GENERATED OBJECT FILES]
+b__quiz.o

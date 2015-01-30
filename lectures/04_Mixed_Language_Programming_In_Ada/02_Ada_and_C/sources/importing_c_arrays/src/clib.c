@@ -1,0 +1,3 @@
+#include <stdlib.h>
+
+const size_t c_array[4] = { 0x10, 0x20, 0x30, 0x40 };

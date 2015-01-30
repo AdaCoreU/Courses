@@ -1,0 +1,44 @@
+V "GNAT Lib v2014"
+A -O2
+A -fno-strict-aliasing
+A -gnatA
+A -gnat05
+A -gnatn
+A -gnatws
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_SECONDARY_STACK
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U record_types%b	record_types.adb	0daf7e3c NE OO PK
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U record_types%s	record_types.ads	b7b2711d EE NE OO PK
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-unccon.ads		20140406181358 f9eb8f06 ada.unchecked_conversion%s
+D record_types.ads	20141205215656 b7b2711d record_types%s
+D record_types.adb	20141205215812 ba1d0f21 record_types%b
+D system.ads		20140406181358 5fc8ae56 system%s
+D s-imgint.ads		20140406181358 02dbe0c2 system.img_int%s
+D s-secsta.ads		20140406181358 86a2856d system.secondary_stack%s
+D s-stoele.ads		20140406181356 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181354 ed88f8fb system.storage_elements%b
+X 3 record_types.ads
+1K9*Record_Types 19l5 19e17 4|1b14 9l5 9t17
+3R9*A_Nested_Record_Type 5e14 12r31 16r29 4|3r29
+4i7*Integer_Field{integer} 4|6r18
+7R9*A_Record_Type 14e14
+9i7*Integer_Field{integer}
+10f7*Float_Field{float}
+12r7*Nested_Record{3R9}
+16V13*As_String{string} 16>23 4|3b13 7l8 7t17
+16r23 Obj{3R9} 4|3b23 6r14
+

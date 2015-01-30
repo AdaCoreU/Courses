@@ -1,0 +1,41 @@
+[LIBRARY PATH]
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\lib\jprinter.dll
+[OBJECT FILES]
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding.o
+20150103150234
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni.o
+20150103150234
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.o
+20150103150234
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.o
+20150103150234
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.o
+20150103150234
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.o
+20150103150234
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-jprinter_jni.o
+20150103150234
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-jprinter_jni-print_cb_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-jprinter_jni-jprinter_package_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-jprinter_jni-id_jni_42_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-ada_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-ada2java_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.o
+20150103150236
+C:\AdaCoreU\04_Ada_And_Java\Java_Hello_World\src\ada2java\ada\obj\jprinter.o
+20150103150236
+[GENERATED SOURCE FILES]
+b__jprinter.ads
+b__jprinter.adb
+b__jprinter.ali
+[GENERATED OBJECT FILES]
+b__jprinter.o
