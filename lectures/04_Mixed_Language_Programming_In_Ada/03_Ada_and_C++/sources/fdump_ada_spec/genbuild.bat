@@ -1,4 +1,10 @@
-pushd src\gen
+pushd src
+if exist gen (
+   rem gen exists
+) else (
+   mkdir gen
+)
+cd gen
 g++ -c -fdump-ada-spec ..\cpplib.cpp -o ..\..\obj\cpplib.obj
 popd
-gprbuild -P proj.gpr
+gprbuild -p -P proj.gpr
